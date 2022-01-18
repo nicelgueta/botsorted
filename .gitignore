@@ -1,0 +1,7 @@
+node_modules/
+venv/
+logs/
+.pytest_cache/
+.vscode/
+__pycache__/
+static/

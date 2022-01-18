@@ -1,0 +1,17 @@
+@startuml open-long
+
+engine -> client: get_non_margin_cash_balance('USDT')
+client --> engine: cash balance
+engine -> client: get price for symbol
+client --> engine: price
+engine -> engine: work out order params
+engine -> client: issue order
+client --> engine: order deets
+engine -> engine: log order
+engine -> client: check order filled
+client --> engine: fill status
+engine -> engine: log once filled
+
+
+
+@enduml
