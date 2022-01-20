@@ -1,6 +1,6 @@
 # Botsorted
 
-Botsorted is a general purpose hosting application I'm using for hosting machine learning models and automated bots.
+Botsorted is a general purpose hosting application I'm using for hosting machine learning models and automated bots. Check out live models [here](http://botsorted.herokuapp.com/getPerformance).
 
 ## Main use
 
