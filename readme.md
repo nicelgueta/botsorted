@@ -1,6 +1,6 @@
 # Botsorted
 
-Botsorted is a general purpose hosting application I'm using for hosting machine learning models and automated bots. Check out live models [here](http://botsorted.herokuapp.com/getPerformance).
+Botsorted is a general purpose hosting application I'm using for hosting machine learning models and automated bots. Check out live models [here](https://botsorted.herokuapp.com/getPerformance).
 
 ## Main use
 
@@ -13,7 +13,7 @@ The only agent currently running live on this application is an implementation o
 
 The actual model in use was estimated using a large grid search of the parameters specified in this paper and using historical bitcoin price data available from coindesk. In order to take advantage of the models ability to take short positions it trades on the Binance futures exchange.
 
-Current performance of the live model (*Reggie 2.0*) can be found [here](http://botsorted.herokuapp.com/getPerformance).
+Current performance of the live model (*Reggie 2.0*) can be found [here](https://botsorted.herokuapp.com/getPerformance).
 
 
 ### Maintenance
